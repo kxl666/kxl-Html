@@ -1,0 +1,42 @@
+body { font-family:Verdana; font-size:14px; margin:0; border: 10px solid rgb(19, 17, 17) }
+
+#container {margin:0 auto; width:900px;}
+#header { height:100px; background:#fff; margin-bottom:5px;}
+#mainContent { height:500px; margin-bottom:5px;}
+#sidebar { float:left; width:200px; height:400px; background:#fff;}
+#sidebar2 { float:right; width:180px; height:400px; background:#fff;}
+#content { margin:0 205px !important; margin:0 202px; height:500px; background:#fff;}
+
+#footer { height:70px; background:#fff;}
+
+.black_line 
+{ 
+    border: 2px solid rgb(19, 17, 17);
+    width:350px;
+}
+
+#box{
+    width: 300px;
+    margin: 30px auto;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+}
+
+.gray {
+    color: #888;
+    font-size: 12px;
+
+}
+
+.search {
+    color: #666;
+    width: 170px;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}

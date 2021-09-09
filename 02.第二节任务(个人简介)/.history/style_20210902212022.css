@@ -1,0 +1,48 @@
+.main {
+    width: 980px;
+    margin:0 auto;
+}
+.head {
+    height: 110px;
+    /* width: 980px; */
+    background: rgb(7, 7, 7);
+}
+
+.head02 {
+    background: rgb(116, 110, 104);
+    height: 56px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ 
+hr {
+    font-size: 10px;
+    color: black;
+}
+
+.content {
+    background: cyan;
+}
+
+.pic {
+    text-align:left;
+    float: left;
+    height: 480px;
+}
+
+.ch {
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.foot {
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    height: 120px;
+}

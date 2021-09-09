@@ -1,0 +1,15 @@
+
+/* divcss5  http://www.divcss5.com */
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND-COLOR: #ffffff; MARGIN: 0px auto; COLOR: #000000; FONT-SIZE: 9pt
+}
+/**/
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:14px; line-height:30px;}#n a{ padding:0 4px; color:#333}
+.auto{margin:0 auto;}
+.tc{text-align:center;}
+.nav{width:980px;height:34px;padding-top:10px;background:url(flbg.gif) no-repeat;margin-top:100px;}
+.nav a{color:#FFF;font-size:14px;font-weight:700;margin:0 10px; text-decoration:none;}
+.nav a:hover{ color:#FF0000}

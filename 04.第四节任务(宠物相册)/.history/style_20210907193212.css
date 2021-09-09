@@ -1,0 +1,19 @@
+#wrap {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    height: 181px;
+    background:url(images/header.jpg) no-repeat center;
+}
+
+.logo {
+    padding: 30px 0 0 20px;
+}
+
+#menu {
+    width: 628px;
+    height: 30px;
+}

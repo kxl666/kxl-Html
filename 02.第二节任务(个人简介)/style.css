@@ -1,0 +1,50 @@
+.main {
+    width: 980px;
+    margin:0 auto; 
+    /* margin 0 auto 居中的意思 */
+}
+.head {
+    height: 110px;
+    /* width: 980px; */
+    background: rgb(7, 7, 7);
+    border: 3px solid black;
+
+}
+
+.head02 {
+    background: rgb(116, 110, 104);
+    height: 56px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ 
+.hr {
+    border: 3px solid black;
+}
+
+.content {
+    background: rgb(136, 185, 185);
+    border: 3px solid black;
+}
+
+.pic {
+    float: left;
+    height: 480px;
+}
+
+.ch {
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.foot {
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    height: 120px;
+}

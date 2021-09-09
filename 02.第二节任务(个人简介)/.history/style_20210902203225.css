@@ -1,0 +1,32 @@
+.main {
+    width: 980px;
+    margin:0 auto;
+}
+.head {
+    height: 110px;
+    /* width: 980px; */
+    background: rgb(7, 7, 7);
+}
+
+.head02 {
+    background: rgb(116, 110, 104);
+    height: 56px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ 
+hr {
+    font-size: 10px;
+    color: black;
+}
+
+.pic {
+    text-align: left;
+    width: 325px;
+    height: 500px;
+    hyphens: "10";
+}

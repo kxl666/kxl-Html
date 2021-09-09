@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* DIVCSS5-CSS初始化模板-www.divcss5.com */
+body, div,  ul, ol, li, dl, h1, h2, h3, h4{margin:0; padding:0;font-style: normal;font:12px/22px "\5B8B\4F53",Arial, Helvetica, sans-serif}
+ol, ul ,li{list-style:none}
+img {border: 0;}
+body{color:#898989;background:#FFF; text-align:center}
+.clear{clear:both;height:1px;width:100%; overflow:hidden; margin-top:-1px}
+a{color:#452C01;text-decoration:none} 
+a:hover{color:#BA2636;text-decoration:underline}
+
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+#n a{ padding:0 4px; color:#333}
+
+ul.list{ width:356px; margin:0 auto; padding:10px 0}
+ul.list li{ padding:4px 0 8px 0; text-align:left; border-bottom:1px solid #EBEBEB}
+ul.list li h3{ height:40px; line-height:40px; font-weight:bold; overflow:hidden; font-size:16px}
+ul.list li div{ height:44px; overflow:hidden}

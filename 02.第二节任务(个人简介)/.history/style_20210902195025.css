@@ -1,0 +1,14 @@
+body {
+    font: 16px/28px 'Microsoft YaHei' ;
+    color: black;
+}
+
+.head {
+    height: 110px;
+    background: rgb(15,47,89);
+}
+
+a {
+    text-decoration-color: none;
+    color: black;
+}

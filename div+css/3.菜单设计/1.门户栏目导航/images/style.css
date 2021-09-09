@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* DIVCSS5-CSS初始化模板-www.divcss5.com */
+body, div, ul, ol, li{margin:0;padding:0;font-style: normal;font:12px/22px "\5B8B\4F53",Arial, Helvetica, sans-serif}
+ol, ul ,li{list-style:none}
+img {border: 0;vertical-align:middle}
+body{color:#000000;background:#FFF;text-align:center}
+.clear{clear:both;height:1px;width:100%;overflow:hidden;margin-top:-1px}
+a{color:#000000;text-decoration:none} 
+a:hover{color:#BA2636;text-decoration:underline}
+
+
+ul#menu{margin:0 auto;width:960px;padding:10px 0;overflow:hidden}
+ul#menu li{text-align:left;padding-right:22px;border-right:1px dashed #dcdddd;overflow:hidden;width:124px;float:left}
+ul#menu li.end{border-right:0;padding-right:0}
+ul#menu li.w134{width:134px}
+ul#menu li.w162{width:162px}
+ul#menu li a{padding-left:16px;float:left}
+ul#menu li a.nba{width:24px}
+ul#menu li a.w36{width:36px}
+ul.menu li strong a{padding-left:0}
+
+/*以下代码与实例模块无关*/
+#n{margin:10px auto;width:920px;border:1px solid #CCC;font-size:12px;line-height:30px}
+#n a{padding:0 4px;color:#333}

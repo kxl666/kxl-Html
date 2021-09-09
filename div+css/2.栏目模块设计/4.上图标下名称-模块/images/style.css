@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* DIVCSS5-CSS初始化模板-www.divcss5.com */
+body, div,ul,li, h1, h2, h3{margin:0; padding:0;font-style: normal;font:12px/22px "\5B8B\4F53",Arial, Helvetica, sans-serif}
+ul,li{ list-style:none}
+img {border: 0;}
+body{color:#8D8D8D;background:#FFF; text-align:center}
+a{color:#353535;text-decoration:none} 
+a:hover{color:#F40E14}
+
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+#n a{ padding:0 4px; color:#333}
+
+ul.listico{ margin:0 auto; width:308px; border:1px solid #EEEEEE; overflow:hidden}
+ul.listico li{ float:left; width:40px; padding:12px 20px 10px 17px}
+ul.listico li a{ display:block; padding-top:34px; height:32px; line-height:32px}
+ul.listico li a.ico1{ background:url(ico-1.gif) no-repeat center 0}
+ul.listico li a.ico2{ background:url(ico-2.gif) no-repeat center 0}
+ul.listico li a.ico3{ background:url(ico-3.gif) no-repeat center 0}
+ul.listico li a.ico4{ background:url(ico-4.gif) no-repeat center 0}
+ul.listico li a.ico5{ background:url(ico-5.gif) no-repeat center 0}
+ul.listico li a.ico6{ background:url(ico-6.gif) no-repeat center 0}
+ul.listico li a.ico7{ background:url(ico-7.gif) no-repeat center 0}
+ul.listico li a.ico8{ background:url(ico-8.gif) no-repeat center 0}

@@ -1,0 +1,12 @@
+/* DIVCSS5  http://www.divcss5.com */
+* { PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px }
+BODY { BACKGROUND-COLOR: #ffffff; MARGIN: 0px auto; COLOR: #000000; FONT-SIZE: 9pt }
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:14px; line-height:30px;}#n a{ padding:0 4px; color:#333}
+#menubar { background:url('header_mbg.gif') repeat-x; height:38px;margin-top:80px; }
+#menubar ul.menus { margin:0px auto 0px; width:962px; }
+#menubar ul.menus li { float:left; margin-top:7px; height:30px;list-style:none; }
+/* 菜单项链接 */
+#menubar ul.menus li a { padding:2px 10px; /* 内边距 */ display:block; /* 显示为块 */ color:#FFF; text-decoration:none; font-weight:bold; font-size:14px; }
+#menubar ul.menus li a:hover { text-decoration:underline; color:#000; }
+/* 当前菜单位置 */
+#menubar ul.menus ul { position:absolute; }

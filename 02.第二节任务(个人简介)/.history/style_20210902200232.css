@@ -1,0 +1,27 @@
+/* body {
+    font: 16px/28px 'Microsoft YaHei' ;
+    color: black;
+    margin: 0 auto;
+    height: 500px;
+} */
+
+.main {
+    width: 980px;
+    margin: auto;
+}
+.head {
+    height: 110px;
+    width: 980px;
+    /* background: rgb(15,47,89); */
+}
+
+.head02 {
+    background: rgb(241,159,67);
+    height: 56px;
+    text-align: right;
+}
+
+a {
+    text-decoration-color: none;
+    color: black;
+}

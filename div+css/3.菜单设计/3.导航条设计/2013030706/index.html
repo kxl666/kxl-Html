@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<TITLE>CSS导航模板版 在线样式  by www.divcss5.com</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+<LINK href="style/skin2.css" type=text/css rel=stylesheet>
+<SCRIPT type=text/javascript>              
+var waitting = 1;              
+var secondLeft = waitting;              
+var timer;                              
+var sourceObj;              
+var number;              
+function getObject(objectId)//获取id的函数               
+    {              
+        if(document.getElementById && document.getElementById(objectId)) {              
+        // W3C DOM              
+        return document.getElementById(objectId);              
+        } else if (document.all && document.all(objectId)) {              
+        // MSIE 4 DOM              
+        return document.all(objectId);              
+        } else if (document.layers && document.layers[objectId]) {              
+        // NN 4 DOM.. note: this won't find nested layers              
+        return document.layers[objectId];              
+        } else {              
+        return false;              
+        }              
+    }              
+function SetTimer()//主导航时间延迟的函数              
+    {              
+        for(j=1; j <10; j++){              
+            if (j == number){              
+                if(getObject("mm"+j)!=false){              
+                    getObject("mm"+ number).className = "menuhover";              
+                    getObject("mb"+ number).className = "";              
+                }              
+            }              
+            else{              
+                 if(getObject("mm"+j)!=false){               
+                    getObject("mm"+ j).className = "";              
+                    getObject("mb"+ j).className = "hide";               
+                }              
+            }              
+        }              
+    }              
+function CheckTime()//设置时间延迟后              
+    {              
+        secondLeft--;              
+        if ( secondLeft == 0 )              
+        {              
+        clearInterval(timer);                                      
+        SetTimer();                      
+        }              
+    }              
+function showM(thisobj,Num)//主导航鼠标滑过函数,带时间延迟              
+    {              
+        number = Num;              
+        sourceObj = thisobj;              
+        secondLeft = 1;              
+        timer = setTimeout('CheckTime()',100);              
+    }              
+function OnMouseLeft()//主导航鼠标移出函数,清除时间函数              
+    {              
+        clearInterval(timer);              
+    }              
+</SCRIPT>
+
+<!--导航开始-->
+<DIV id=mainmenu_body> 
+    <!--主导航开始-->
+    <DIV id=mainmenu_top>
+        <UL>
+            <li><a id=mm1 onmouseover=showM(this,1); onmouseout=OnMouseLeft(); href="http://www.divcss5.com/" target=_parent>首页</a></li>
+            <li><a id=mm2 onmouseover=showM(this,2); onmouseout=OnMouseLeft(); href="http://www.divcss5.com/css-tool/" target=_parent>CSS工具</a></li>
+            <li><a id=mm3 onmouseover=showM(this,3); onmouseout=OnMouseLeft(); href="http://www.divcss5.com/css-hack/" target=_parent>css hack</a></li>
+            <li><a id=mm4 onmouseover=showM(this,4); onmouseout=OnMouseLeft(); href="http://www.divcss5.com/css-jiaocheng/" target=_parent>CSS教程</a></li>
+            <li><a id=mm5 onmouseover=showM(this,5); onmouseout=OnMouseLeft(); href="http://www.divcss5.com/css-texiao/" target=_parent>css特效</a></li>
+            <li><a id=mm6 onmouseover=showM(this,6); onmouseout=OnMouseLeft(); href="http://www.divcss5.com/jiqiao/" target=_parent>CSS技巧</a></li>
+            <li><a id=mm7 onmouseover=showM(this,7); onmouseout=OnMouseLeft(); href="http://www.divcss5.com/template/" target=_parent>CSS模块</a></li>
+            <li style="DISPLAY: none"><a id=mm8 onmouseover=showM(this,8); onmouseout=OnMouseLeft(); href="http://www.divcss5.com/html/" target=_parent>HTML</a></li>
+            <li><a id=mm9 onmouseover=showM(this,9); onmouseout=OnMouseLeft(); href="http://www.divcss5.com/wenzhai/" target=_parent>站长新闻</a></li>
+        </UL>
+    </DIV>
+    <!--子导航导航开始-->
+    <DIV id=mainmenu_bottom>
+        <DIV class=mainmenu_rbg>
+            <UL class=hide id=mb1>
+                <li><a href="#">DIVCSS5本导航非常适合于分类比较多电子商务站等网站的导航模板版</a></li>
+                <li><a href="#">此导航很漂亮落</a></li>
+            </UL>
+            <UL class=hide id=mb2>
+                <LI style="DISPLAY: none"><A href="#" target=_parent>免费模板网</a></li>
+                <li><a href="#" target=_parent>免费模板网</a></li>
+                <li><a href="#" target=_parent>HTML+CSS模板</a></li>
+                <li><a href="#" target=_parent>HTML+CSS模板</a></li>
+                <li><a href="#" target=_parent>HTML+CSS教程</a></li>
+                <li><a href="#" target=_parent>网页特效</a></li>
+            </UL>
+            <UL class=hide id=mb3>
+                <LI style="DISPLAY: none"><A href="#" target=_parent>免费模板网</a></li>
+                <LI style="MARGIN-LEFT: 7px"><A href="#" target=_parent>免费模板网</a></li>
+                <li><a href="#" target=_parent>网上商城</a></li>
+                <li><a href="#" target=_parent>网上商城</a></li>
+                <li><a href="#" target=_parent>MYSQL数据库</a></li>
+                <li><a href="#" target=_parent>MYSQL数据库</a></li>
+                <li><a href="#" target=_parent>电子商务</a></li>
+                <li><a href="#" target=_parent>网页特效</a></li>
+            </UL>
+            <UL class=hide id=mb4>
+                <LI style="DISPLAY: none; MARGIN-LEFT: 80px"><A href="#" target=_parent>免费模板网首页</a></li>
+                <LI style="MARGIN-LEFT: 80px"><A href="#" target=_parent>网页特效</a></li>
+                <li><a href="#" target=_parent>MYSQL数据库</a></li>
+                <li><a href="#" target=_parent>MSSQL数据库</a></li>
+            </UL>
+            <UL class=hide id=mb5>
+                <LI style="DISPLAY: none"><A href="#" target=_parent>服务器租用首页</a></li>
+                <LI style="MARGIN-LEFT: 80px"><A href="#" target=_parent>服务器租用首页</a></li>
+                <li><a href="#" target=_parent>服务器租用</a></li>
+                <li><a href="#" target=_parent>服务器托管</a></li>
+                <li><a href="#" target=_parent>超级机房</a></li>
+                <li><a href="#" target=_parent>CDN加速设施</a></li>
+            </UL>
+            <UL class=hide id=mb6>
+                <LI style="DISPLAY: none"><A href="#" target=_parent>企业邮局首页</a></li>
+                <LI style="MARGIN-LEFT: 160px"><A href="#" target=_parent>企业邮局首页</a></li>
+                <li><a href="#" target=_parent>绿色G级邮箱</a></li>
+                <li><a href="#" target=_parent>绿色企业邮箱</a></li>
+            </UL>
+            <UL class=hide id=mb7>
+                <LI style="DISPLAY: none"><A href="#" target=_parent>网站制作首页</a></li>
+                <LI style="MARGIN-LEFT: 180px"><A href="#" target=_parent>企业建站</a></li>
+                <li><a href="#" target=_parent>商城制作</a></li>
+                <li><a href="#" target=_parent>个人建站</a></li>
+                <li><a href="#" target=_parent>门户建站</a></li>
+            </UL>
+            <UL class=hide id=mb8 style="DISPLAY: none">
+                <LI style="MARGIN-LEFT: 270px"><A href="#" target=_parent>代理加盟</a></li>
+                <li><a href="#" target=_parent>代理加盟</a></li>
+                <li><a href="#" target=_parent>代理加盟</a></li>
+            </UL>
+            <UL class=hide id=mb9>
+                <LI style="MARGIN-LEFT: 180px"><A href="#">代理加盟</a></li>
+                <li><a href="#" target=_parent>联系我们</a></li>
+                <li><a href="#" target=_parent>本站通知</a></li>
+                <li><a href="#" target=_parent>行业新闻</a></li>
+                <li><a href="#" target=_parent>诚聘英才</a></li>
+            </UL>
+            <script src="js/main_nav.js"></script> 
+        </DIV>
+    </DIV>
+</DIV>
+
+<p id="n"><a href="http://www.divcss5.com/">CSS</a><a href="http://www.divcss5.com/">divcss5</a>：<a href="http://www.divcss5.com/html/">Html基础</a><a href="http://www.divcss5.com/htmlrumen/">html入门</a><a href="http://www.divcss5.com/rumen/">CSS基础</a><a href="http://www.divcss5.com/cssrumen/">CSS入门</a><a href="http://www.divcss5.com/css-hack/">CSS Hack</a><a href="http://www.divcss5.com/css-texiao/">CSS模块特效</a><a href="http://www.divcss5.com/wenji/">CSS知答</a><a href="http://www.divcss5.com/peixun/">CSS培训</a><a href="http://www.css5.com.cn/">CSS切图</a><a href="http://www.divcss5.com/css-tool/">CSS工具</a><a href="http://www.divcss5.com/jiqiao/">CSS技巧</a><a href="http://www.divcss5.com/">DIV+CSS</a></p>
+<p>&nbsp;</p>
+<p><strong>返回<a href="http://www.divcss5.com/template/m429.shtml">CSS导航条介绍或下载DIV CSS导航条</a></strong>：<a href="http://www.divcss5.com/template/m429.shtml">http://www.divcss5.com/template/m429.shtml</a></p>
+</body></html>

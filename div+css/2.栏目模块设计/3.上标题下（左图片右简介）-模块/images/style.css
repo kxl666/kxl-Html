@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* DIVCSS5-CSS初始化模板-www.divcss5.com */
+body, div, h1, h2, h3{margin:0; padding:0;font-style: normal;font:12px/22px "\5B8B\4F53",Arial, Helvetica, sans-serif}
+img {border: 0;}
+body{color:#707070;background:#FFF; text-align:center}
+a{color:#333;text-decoration:none} 
+a:hover,.warp-box h3 a:hover,.warp-box .box div a:hover{color:#FF8C04}
+
+.warp-box{ margin:0 auto; width:280px}
+.warp-box h3{height:46px; line-height:46px; font-weight:bold;
+			font-size:14px; font-family:"\5FAE\8F6F\96C5\9ED1"}
+.warp-box h3 a{ color:#388FEC}
+.warp-box .box{ overflow:hidden}
+.warp-box .box img{ float:left; width:90px; height:60px}
+.warp-box .box div{ float:right; width:180px; height:60px; line-height:20px; text-align:left}
+.warp-box .box div a{ color:#5C5B58}
+
+
+
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+#n a{ padding:0 4px; color:#333}
+

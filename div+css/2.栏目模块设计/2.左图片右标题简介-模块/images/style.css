@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* DIVCSS5-CSS初始化模板-www.divcss5.com */
+body, div, h1, h2, h3{margin:0; padding:0;font-style: normal;font:12px/22px "\5B8B\4F53",Arial, Helvetica, sans-serif}
+img {border: 0;}
+body{color:#8D8D8D;background:#FFF; text-align:center}
+a{color:#353535;text-decoration:none} 
+a:hover{color:#FF8C04}
+
+#n{margin:10px auto; width:920px; border:1px solid #CCC;font-size:12px; line-height:30px;}
+#n a{ padding:0 4px; color:#333}
+
+.divcss5{ margin:0 auto; width:310px; overflow:hidden}
+.divcss5 img{ float:left; width:112px; height:75px}
+.divcss5 .right{ float:right; width:188px; text-align:left}
+.divcss5 .right h3{ height:26px; line-height:26px;font-family:"Microsoft YaHei"; font-size:16px; overflow:hidden;}
+.divcss5 .right div{ padding-top:5px; height:44px;overflow:hidden}
+.divcss5 .right div span{color:#353535}

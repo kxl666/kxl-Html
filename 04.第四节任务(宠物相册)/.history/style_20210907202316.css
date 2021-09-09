@@ -1,0 +1,78 @@
+#wrap {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    height: 181px;
+    background:url(images/header.jpg) no-repeat center;
+}
+
+.logo {
+    padding: 30px 0 0 20px;
+}
+
+#menu {
+    width: 628px;
+    height: 30px;
+    float: right;
+    padding-top: 50px;
+}
+
+#menu span {
+    height: 27px;
+}
+
+#menu span a {
+    height: 27px;
+    padding: 0px 10px 0 15px;
+    margin: 0 4px 0 4px ;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+#menu span.selected a {
+    color: #c4dfa6;
+}
+
+#menu span a:hover {
+    color: #c4dfa6;
+}
+
+.pet_album {
+    width: 880px;
+    padding: 20px 0 20px 20px;
+    background-color: #f2f8e7;
+    overflow: hidden;
+}
+
+.crumb_nav {
+    padding: 5px 0 10px 0px ;
+    font-size: 15px;
+}
+.crumb_nav a {
+    text-decoration: none;
+    color: #990000;
+}
+
+.pet_album_box {
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+.pet_album_box span {
+    font-style: italic;
+    color: #f8981d;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pet_album_bg {
+    width: 140px;
+    height: 140px;
+}
