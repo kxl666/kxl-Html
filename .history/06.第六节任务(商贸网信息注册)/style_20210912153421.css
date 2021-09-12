@@ -1,0 +1,26 @@
+
+.body1 {
+    height: 30px;
+    width: 700px;
+    margin: 0 auto;
+    padding-left: 240px;
+    padding-top: 20px;
+}
+
+h3 {
+    height: 45px;
+    font-size: 20px;
+    color: #333;
+    line-height: 45px;
+    border-bottom: 1px solid #333;
+}
+
+td {
+    height: 40px;
+    color: #333;
+}
+
+.left {
+    width: 60px;
+    text-align: right;
+}

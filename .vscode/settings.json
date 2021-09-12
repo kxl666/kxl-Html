@@ -1,0 +1,4 @@
+{
+    "syz.enable": true,
+    "syz.reminderIntervalInMinutes": 60
+}
