@@ -1,0 +1,27 @@
+.content {
+    margin: 0 auto;
+    height: 1200px;
+    width: 1200px;
+    border: 1px solid red;
+}
+
+.header {
+    position: relative;
+    /* height: 560px; */
+    border: 1px solid red;
+    /* background: url(img/bg.jpg);
+    background-size:940px 570px; */
+}
+
+.img {
+    position: absolute;
+    top: 10px;
+    border: 1px solid red;
+}
+
+.img .dh {
+    
+    border: 1px solid red;
+    padding-top: 10px;
+    height: 30px;
+}

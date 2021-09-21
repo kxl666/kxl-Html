@@ -1,0 +1,16 @@
+.content {
+    margin: 0 auto;
+    height: 900px;
+    width: 1000px;
+}
+
+.header {
+    /* position: relative; */
+    background: url(img/bg.jpg);
+    background-size:940px 570px
+}
+
+.img2 {
+    /* position: absolute;
+    top: 20px; */
+}

@@ -1,0 +1,61 @@
+.content {}
+
+.header {
+    margin: 0 auto;
+    height: 660px;
+    width: 1160px;
+    background: url(img/bg.jpg) no-repeat;
+    /* background-size:940px 570px; */
+}
+
+
+
+.dh {
+    margin: 0 auto;
+    background: url(img/nav.jpg) no-repeat;
+    padding: 40px 0 0 120px;
+    height: 46px;
+    width: 1140px;
+    /* margin-top: 10px;  */
+}
+
+.dh span {
+    height: 10px;
+    /* margin-top: 1px; */
+    /* line-height: 10px; */
+    padding-left: 30px;
+}
+
+.op {
+    float: left;
+    margin: 0 40px 0 40px;
+}
+
+.po {
+    float: right;
+    margin-right: 300px;
+}
+
+.midder {
+    height: 660px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.dt span {
+    /* float: left; */
+    display: inline-block;
+    
+}
+
+.dt span:first-child {
+    width: 300px;
+    height: 200px;
+    padding-right: 38px;
+}
+
+.dt span:nth-child(3) {
+    width: 300px;
+    height: 200px;
+    padding-left: 38px;
+}

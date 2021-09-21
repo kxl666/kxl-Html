@@ -1,0 +1,41 @@
+.content {
+    border: 1px solid red;
+}
+
+.header {
+    margin: 0 auto;
+    height: 660px;
+    width: 980px;
+    border: 1px solid red;
+    background: url(img/bg.jpg) no-repeat; 
+    /* background-size:940px 570px; */
+}
+
+
+
+.dh {
+    margin: 0 auto;
+    background: url(img/nav.jpg) no-repeat;
+    border: 1px solid red;
+    padding : 40px 0 0 120px;
+    height: 46px;
+    width: 960px;
+    /* margin-top: 10px;  */
+}
+
+.dh span {
+    height: 10px;
+    /* margin-top: 1px; */
+    line-height: 10px;
+    padding-left: 10px;
+}
+
+.op {
+    float: left;
+    margin: 0 40px 0 40px;
+}
+
+.po {
+    float: right;
+    margin-right: 300px;
+}

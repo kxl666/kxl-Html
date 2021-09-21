@@ -1,0 +1,23 @@
+.content {
+    margin: 0 auto;
+    height: 900px;
+    width: 1000px;
+}
+
+.header {
+    position: relative;
+    height: 560px;
+    /* background: url(img/bg.jpg);
+    background-size:940px 570px; */
+}
+
+.img2 {
+    position: absolute;
+    top: 20px;
+}
+
+.img2 span {
+    padding: 10px;
+    display: inline-block;
+    height: 10px;
+}

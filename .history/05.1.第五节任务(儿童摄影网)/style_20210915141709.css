@@ -1,0 +1,9 @@
+.header {
+    margin: 0 auto;
+    /* height: 900px; */
+    width: 1000px;
+}
+
+.top {
+    position: relative;
+}

@@ -1,0 +1,28 @@
+.content {
+    border: 1px solid red;
+}
+
+.header {
+    margin: 0 auto;
+    height: 660px;
+    width: 960px;
+    border: 1px solid red;
+    background: url(img/bg.jpg) no-repeat; 
+    /* background-size:940px 570px; */
+}
+
+
+
+.dh {
+    margin: 0 auto;
+    background: url(img/nav.jpg) no-repeat;
+    border: 1px solid red;
+    padding-top: 50px;
+    height: 46px;
+    width: 960px;
+    /* margin-top: 10px;  */
+}
+
+.dh span {
+    
+}
