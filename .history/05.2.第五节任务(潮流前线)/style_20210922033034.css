@@ -1,0 +1,125 @@
+body {
+    width: 844px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+.lo {
+    width: 120px;
+    height: 50px;
+    float: left;
+}
+
+.top {
+    background: rgba(0, 0, 0, .4);
+    position: fixed;
+    top: 1px;
+}
+
+.top a {
+    display: inline-block;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+
+.top a:hover {
+    background-color: black;
+    color: white;
+}
+
+.lo02 {
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+}
+
+.sub {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    background: #eee;
+    border-bottom: 1px solid brown;
+}
+
+.mx,
+.jm {
+    margin: 0 40px;
+}
+
+.mx img,
+.jm img {
+    width: 140px;
+    height: 160px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.mx01 {
+    margin-bottom: 10px;
+}
+
+.mx02 {
+    margin-bottom: 10px;
+}
+
+#a1:hover {
+    background: url(img/1-2.jpg);
+}
+
+.dz {
+    background: url(img/custom-bg.jpg) center;
+    margin-bottom: 40px;
+    height: 280px;
+    overflow: hidden;
+
+}
+
+.jpg {
+    float: left;
+    margin: 100px 0 0 100px;
+    width: 350px;
+    background: #eee;
+    font-size: 10px;
+
+}
+
+#j1 {
+    width: 350px;
+    height: 140px;
+
+}
+
+.cont {
+    color: white;
+    width: 360px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.footer {
+    background: brown;
+    color: white;
+    height: 80px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.qr {
+    position: fixed;
+    right: 20%;
+    bottom: 20%;
+}
+
+.qr #i {
+    width: 60px;
+    height: 60px;
+
+}

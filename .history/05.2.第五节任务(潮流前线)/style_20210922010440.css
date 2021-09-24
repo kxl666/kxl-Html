@@ -1,0 +1,16 @@
+.top li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.top li a {
+    text-decoration: none;
+    height: ;
+}
+
+#lo {
+    width: 100px;
+    height: 40px;
+    /* float: left; */
+}

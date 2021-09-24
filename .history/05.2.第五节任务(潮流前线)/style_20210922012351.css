@@ -1,0 +1,24 @@
+body {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.top {
+    background: rgba(0, 0, 0, .6);
+}
+
+
+
+.top a {
+    display: inline-block;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    color: white;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.top a:hover {
+    background-color: black;
+}

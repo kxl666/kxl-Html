@@ -1,0 +1,27 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top {
+    background: url(img/logo.png);
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 10px;
+}
+
+
+
+.top a {
+    display: inline-block;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+.top a:hover {
+    background-color: black;
+}

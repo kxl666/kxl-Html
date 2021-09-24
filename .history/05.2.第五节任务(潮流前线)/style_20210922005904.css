@@ -1,0 +1,10 @@
+.top li {
+    list-style: none;
+    display: inline-block
+}
+
+#lo {
+    width: 10px;
+    height: 10px;
+    float: left;
+}

@@ -1,4 +1,5 @@
 {
     "syz.enable": true,
-    "syz.reminderIntervalInMinutes": 60
+    "syz.reminderIntervalInMinutes": 60,
+    "liveServer.settings.port": 5501
 }
