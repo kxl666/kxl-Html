@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			#top01 ,#top02{
+				height: 40px;
+				width: 40px;
+				border: 1px solid black;
+				background-color: red;
+			}
+		</style>
+		
+		<script type="text/javascript">
+			 window.onload = function(){
+			 	var oDiv01 = document.getElementById("top01");
+			 	var oDiv02 = document.getElementById("top02");
+			 	
+			 	oDiv01.onmousemove = toGreen;
+			 	
+			 	function toGreen(){
+			 		oDiv01.style.background = "green";
+			 		oDiv02.style.background = "pink";
+			 	}
+			 }
+		</script>
+	</head>
+	<body>
+		<div id="top01">
+			123
+		</div>
+		<div id="top02">
+			456
+		</div>
+	</body>
+</html>

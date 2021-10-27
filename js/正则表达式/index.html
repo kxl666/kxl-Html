@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        button {
+            margin-left: 100px;
+            display: block;
+        }
+
+        span {
+            font-size: 14px;
+            color: greenyellow;
+        }
+
+        span[id^=N2ame] {
+            display: none;
+            color: red;
+        }
+
+        span[id^=attend] {
+            color: dodgerblue;
+            display: none;
+        }
+
+        #footer {
+            margin-left: 70px;
+            font-size: 14px;
+            width: 100px;
+            height: 50px;
+            border: 1px solid deeppink;
+            background-color: #1E90FF;
+            color: white;
+            line-height: 50px;
+            text-align: center;
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var oTUName01 = [];
+            var oTUName02 = [];
+            var oAttend = [];
+            var oInput = document.getElementsByTagName("input");
+            var oFooter = document.getElementById("footer");
+            for (var i = 0; i <= 6; i++) {
+                oTUName01[i] = document.getElementById('N1ame' + (i + 1));
+                oTUName02[i] = document.getElementById('N2ame' + (i + 1));
+                oAttend[i] = document.getElementById('attend' + (i + 1));
+            }
+
+            var oButton = document.getElementById("button");
+
+            var func = ["Check_Account", "Check_Pass01", "Check_Pass02", "Check_Bname", "Check_People",
+                "Check_Pheno", "Check_Mail"
+            ];
+
+            function Check_Account(str) {
+                var re = /^\w{6,9}$/i;
+                return re.test(str);
+            }
+
+            function Check_Pass01(str) {
+                var re = /^[a-zA-Z0-9]{6,12}$/;
+                return re.test(str);
+            }
+
+            function Check_Pass02(str) {
+                if (str == oInput[1].value && str != "")
+                    return true;
+            }
+
+            function Check_Pheno(str) {
+                var re = /^1[0-9]{10}$/;
+                return re.test(str);
+            }
+
+            Check_Bname = Check_People = function (str) {
+                if (str != "") {
+                    return true;
+                }
+            }
+
+            function Check_Mail(str) {
+                var re = /^\w+@[a-z0-9]+\.[a-z]{2,}$/;
+                return re.test(str);
+            }
+
+            oButton.onclick = function () {
+                var result = 0;
+                for (var i = 0; i <= 6; i++) {
+                    if (eval(func[i])(oInput[i].value)) {
+                        if (i == 0) {
+                            oInput[i].readOnly = true;
+                        }
+                        //								eval('N1ame'+(i+1)).style.display = "none";
+                        oTUName01[i].style.display = "none";
+                        oTUName02[i].style.display = "none";
+                        oAttend[i].style.display = "inline-block";
+
+                        result = result + 1;
+                    } else {
+                        oInput[i].value = "";
+                        oTUName01[i].style.display = "none";
+                        oTUName02[i].style.display = "inline-block";
+                    }
+                }
+                if (result == 7) {
+                    oFooter.style.display = "inline-block";
+                }
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <p>登录账号: <input type="text" />
+        <span id="N1ame1">会员登录账号，一旦注册成功，不可修改</span>
+        <span id="N2ame1">格式错误：请重新输入6-9个字母或数字下划线</span>
+        <span id="attend1">正确</span>
+    </p>
+    <p>密码: <input type="password" />
+        <span id="N1ame2">密码由6-12个英文字母(区分大小写)或数字组成</span>
+        <span id="N2ame2">格式错误：请重新输入6-12个英文字母(区分大小写)或数字组成</span>
+        <span id="attend2">正确</span>
+    </p>
+    <p>确认密码: <input type="password" />
+        <span id="N1ame3"></span>
+        <span id="N2ame3">二次密码不符</span>
+        <span id="attend3">正确</span>
+    </p>
+    <p>采购商名称: <input type="text" />
+        <span id="N1ame4">店铺公司或机构名称</span>
+        <span id="N2ame4">不能为空</span>
+        <span id="attend4">正确</span>
+    </p>
+    <p>联系人: <input type="text" id="" />
+        <span id="N1ame5"></span>
+        <span id="N2ame5">不能为空</span>
+        <span id="attend5">正确</span>
+    </p>
+    <p>手机: <input type="text" id="phone" />
+        <span id="N1ame6">用于工作人员和您联系，并接收账号开通短信</span>
+        <span id="N2ame6">格式错误为11位数字</span>
+        <span id="attend6">正确</span>
+    </p>
+    <p>邮箱: <input type="text" id="mail" />
+        <span id="N1ame7"></span>
+        <span id="N2ame7">格式错误</span>
+        <span id="attend7">正确</span>
+    </p>
+    <button id="button">提交</button>
+    <p id="footer">恭喜注册成功</p>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript">
+			window.onload = function(){
+				var oR1 = document.getElementById('r1');
+				var oR2 = document.getElementById('r1');
+				var oR3 = document.getElementById('r1');
+				var oR4 = document.getElementById('r1');
+				var oResult1 = document.getElementById('result1');
+				var oResult2 = document.getElementById('result2');
+				var oB1 = document.getElementById('b1');
+				var oB2 = document.getElementById('b2');
+				
+				
+				var num = function(a,b,c,d){
+					if(a>=5000){
+						return a-b-5000-c-d;
+					}
+					else 
+						return a-b-c-d;
+					
+				}
+				
+//				console.log(num(7000,1000,500,0));
+				
+				function ns(Num){
+					if(Num>=3000){
+						if(Num>=12000){
+							if(Num>=25000){
+								if(Num>=35000){
+									if(Num>=55000){
+										if(Num>=80000){
+											return Num*0.45-15160;
+										}
+										else{
+											return Num*0.35-7160;
+										}
+									}
+									else{
+										return Num*0.3-4410;
+								}
+								else{
+									return Num*0.25-2660;
+									}
+							}
+							else{
+								return Num*0.2-1410;
+								}
+							}
+						}
+						else{
+								return Num*0.1-210;
+						}
+					}
+					else{
+						return Num*0.03-0;
+					}
+				}
+				oB1.onclick = function(){
+					var numbe = num(oR1.value,oR2.value,oR3.value,oR4.value);
+					oResult1.value = numbe;
+				}
+				
+				oB2.onclick = function(){
+					var numbe = num(oR1.value,oR2.value,oR3.value,oR4.value);
+					oResult2.value = parseInt(oR1.value) - ns(numbe));
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<p>请输入月收入：<input type="text" name="" id="r1" value="" /></p> 
+		<p>请输入五险一金：<input type="text" name="" id="r2" value="" /></p>
+		<p>请输入依法其他扣除：<input type="text" name="" id="r3" value="" /></p> 
+		<p>请输入专项附加扣除：<input type="text" name="" id="r4" value="" /></p>
+		<p>应纳税金额：<input type="text" name="" id="result1" value="" /> <button id="b1">计算</button>
+		税后工资：<input type="text" name="" id="result2" value="" /><button id="b2">计算</button> </p> 
+	</body>
+</html>

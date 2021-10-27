@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript">
+			window.onload = function(){
+				var oQtext = document.querySelector('#top');
+				var oBotton = document.querySelector('button');
+				var oDiv = document.querySelector('#cont');
+				
+				oBotton.onclick = function(){
+					oDiv.innerHTML = oQtext.value;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<p>
+			
+			<input type="text" name="" id="top" value="" />
+			<button>点击</button>
+			<div id="cont">
+				
+			</div>
+		</p>
+	</body>
+</html>
